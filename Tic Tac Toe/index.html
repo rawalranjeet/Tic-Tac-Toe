@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="row1">
+            <button class="col1" id="b1" onclick="getId(this.id),checkWin()">-</button>
+            <button class="col2" id="b2" onclick="getId(this.id),checkWin()">-</button>
+            <button class="col3" id="b3" onclick="getId(this.id),checkWin()">-</button>
+        </div>
+        <div class="row2">
+            <button class="col1" id="b4" onclick="getId(this.id),checkWin()">-</button>
+            <button class="col2" id="b5" onclick="getId(this.id),checkWin()">-</button>
+            <button class="col3" id="b6" onclick="getId(this.id),checkWin()">-</button>
+        </div>
+        <div class="row3">
+            <button class="col1" id="b7" onclick="getId(this.id),checkWin()">-</button>
+            <button class="col2" id="b8" onclick="getId(this.id),checkWin()">-</button>
+            <button class="col3" id="b9" onclick="getId(this.id),checkWin()">-</button>
+        </div>
+        
+    </div>
+
+    <div>
+        <br>
+        <img src="restart.png" alt="" id="restartBtn" onclick="restart()">
+        <br>
+        <h3 id="gameOver"></h3>
+        <br>
+        <h3 id="winner"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
